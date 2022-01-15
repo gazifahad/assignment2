@@ -194,6 +194,7 @@ span{
         .logo ul li img{
             width: 80%;
         }
+        hr{width: 95%;}
     .product-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -224,12 +225,16 @@ span{
             margin: 0;
             padding: 0;
         }
+        .menu{
+            width: 95vw;
+        }
         .navigation-container{
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100%;
+            width: 95vw;
         }
+        
         .influencer-top{
             text-align: center;
         }
@@ -243,19 +248,45 @@ span{
             width: 300px;
             height: 300px;
         }
+        .logo-section{
+            margin-top: 50px;
+        }
+        .logo{
+            width: 90vw;
+        }
+       
+        .logo ul{
+            display: flex;
+            justify-content:space-around;
+            
+        }
         .logo ul li img{
-            width: 90%;
+            width: 70%;
+     }
+        hr{
+          
+            width: 95%;
+            margin: 0;
         }
         .product-container{
             display: grid;
             grid-template-columns: repeat(2,1fr);
             text-align: center;
+            width: 95vw;
         }
         .product-container :nth-child(9){
          position: relative;
          left: 50%;
             
         }
+      
+        .see-more{
+            display: flex;
+            justify-content: center;
+          }
+          .working-process{
+              width: 95vw;
+          }
 
 }
 
