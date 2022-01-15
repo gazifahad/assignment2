@@ -13,9 +13,7 @@ main{
     margin:170px 165px;
 }
 /* menubar style  */
-nav{
-    margin: 87px 120px;
-}
+
 .navigation-container{
     display: flex;
     justify-content: space-between;
@@ -131,24 +129,69 @@ span{
     color: firebrick;
 
 }
+/* footer style  */
 .footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     background-color: rgb(54, 9, 54);
     color: floralwhite;
+    padding: 40px;
+    
 
 }
 .footer-description{
-    width: 24%;
-    text-align: center;
+   
+    
     font-size: 14px;
     
 }
 .footer-icons .fab{
     font-size: 20px;
-    padding: 10px;
+    padding: 0 10px;
 
+}
+/* main style ends  */
+/* media query styles  */
+
+/* for mobile the max-width we took is 480px */
+@media screen and (max-width: 480px) {
+    body{background-color: fuchsia;
+        margin: 0;
+
+
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+            margin: 0;
+            padding: 0;
+        }
+        .navigation-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .influencer-top img{ 
+            width: 50%;
+        }
+    .product-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+   
+    .processes{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+
+    }
+    .footer{
+        width: 100%;
+        padding: 10px;
+    }
+  
 }
 
 
