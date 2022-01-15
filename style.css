@@ -101,8 +101,54 @@ span{
     margin-left: 10px;
 }
 .see-more{
-  display: inline;
+  display: block;
   float: right;
   color: chocolate;
 }
+/* working process styles */
+.working-process{
+    margin-top: 200px;
+}
+.working-process h1{
+    text-align: center;
+    font-size: 40px;
+    color: darkslategray;
+}
+.processes{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    
+}
+.process{
+    text-align: center;
+    padding: 20px;
+
+}
+.process-icon{
+    font-size: 80px;
+    color: firebrick;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(54, 9, 54);
+    color: floralwhite;
+
+}
+.footer-description{
+    width: 24%;
+    text-align: center;
+    font-size: 14px;
+    
+}
+.footer-icons .fab{
+    font-size: 20px;
+    padding: 10px;
+
+}
+
 
